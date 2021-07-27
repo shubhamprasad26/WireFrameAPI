@@ -23,5 +23,7 @@ namespace WireFrames.Model
         public byte noofRows { get; set; }
         public string mealType { get; set; }
         public string briefInfo { get; set; }
+
+        public bool schedule { get; set; }
     }
 }
